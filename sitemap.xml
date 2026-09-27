@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://osintinvestigator.github.io/osint/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://osintinvestigator.github.io/osint/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://osintinvestigator.github.io/osint/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://osintinvestigator.github.io/osint/"/>
+  </url>
+  <url>
+    <loc>https://osintinvestigator.github.io/osint/pl/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://osintinvestigator.github.io/osint/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://osintinvestigator.github.io/osint/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://osintinvestigator.github.io/osint/"/>
+  </url>
+</urlset>

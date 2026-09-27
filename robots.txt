@@ -1,0 +1,7 @@
+# Note: for a GitHub Pages project site, crawlers read robots.txt only from the
+# domain root (osintinvestigator.github.io/robots.txt). This copy takes effect
+# if the site moves to its own domain; submit the sitemap in Search Console meanwhile.
+User-agent: *
+Allow: /
+
+Sitemap: https://osintinvestigator.github.io/osint/sitemap.xml

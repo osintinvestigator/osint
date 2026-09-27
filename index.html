@@ -1,185 +1,334 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <!-- SEO meta -->
-  <title>Mike Charlie – OSINT Investigator</title>
-  <meta name="description" content="Freelance OSINT analyst helping clients verify people, companies, and digital trails using open-source intelligence. Confidential, precise, and discreet.">
-  <meta name="keywords" content="OSINT, open-source intelligence, background check, due diligence, cyber investigation, digital footprint, competitive analysis">
-  <meta name="author" content="Mike Charlie">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polish Genealogy Research &amp; OSINT | Mike Charlie Research</title>
+  <meta name="description" content="Find your ancestors in Poland: archival genealogy research in parish and civil records, emigration tracing, record translation and OSINT. Reports in English.">
+  <link rel="canonical" href="https://osintinvestigator.github.io/osint/">
+  <link rel="alternate" hreflang="en" href="https://osintinvestigator.github.io/osint/">
+  <link rel="alternate" hreflang="pl" href="https://osintinvestigator.github.io/osint/pl/">
+  <link rel="alternate" hreflang="x-default" href="https://osintinvestigator.github.io/osint/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#152630">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Mike Charlie – OSINT Investigator" />
-  <meta property="og:description" content="Discreet and ethical investigations: people, companies, reputation, and digital evidence." />
-  <meta property="og:image" content="https://osintinvestigator.github.io/osint_landing/logo.png" />
-  <meta property="og:url" content="https://osintinvestigator.github.io/osint_landing/" />
-  <meta property="og:type" content="website" />
-
-  <!-- Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mike Charlie Research">
+  <meta property="og:title" content="Polish Genealogy Research &amp; OSINT | Mike Charlie Research">
+  <meta property="og:description" content="Ancestor research in Polish archives, emigration tracing and evidence-based verification. Every finding tied to a cited record.">
+  <meta property="og:url" content="https://osintinvestigator.github.io/osint/">
+  <meta property="og:image" content="https://osintinvestigator.github.io/osint/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="pl_PL">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mike Charlie – OSINT Investigator">
-  <meta name="twitter:description" content="Professional OSINT services for journalism, legal, and business needs.">
-  <meta name="twitter:image" content="https://osintinvestigator.github.io/osint_landing/logo.png">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #f8f9fa;
-      color: #212529;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    .logo {
-      max-width: 120px;
-      display: block;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-size: 1.25rem;
-      color: #495057;
-      margin-top: 2rem;
-    }
-    p, ul {
-      line-height: 1.6;
-    }
-    .contact {
-      margin-top: 2rem;
-      padding: 1rem;
-      background: #e9ecef;
-      border-radius: 8px;
-    }
-    .contact a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    .contact a:hover {
-      text-decoration: underline;
-    }
-    .lang-switch {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-    }
-    .lang-switch button {
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-      margin-left: 10px;
-    }
-  </style>
-  <script>
-    function switchLang(lang) {
-      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
-      document.getElementById('pl').style.display = lang === 'pl' ? 'block' : 'none';
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://osintinvestigator.github.io/osint/#business",
+        "name": "Mike Charlie Research",
+        "url": "https://osintinvestigator.github.io/osint/",
+        "logo": "https://osintinvestigator.github.io/osint/assets/apple-touch-icon.png",
+        "image": "https://osintinvestigator.github.io/osint/assets/og-image.png",
+        "email": "mike.charlie21@proton.me",
+        "description": "Genealogy research in Polish archives, emigration tracing, historical source verification and open-source intelligence (OSINT) research for private clients, lawyers and journalists.",
+        "areaServed": "Worldwide",
+        "availableLanguage": ["English", "Polish"],
+        "knowsAbout": ["Polish genealogy", "Genealogical research", "Archival research", "Parish registers", "Emigration records", "Historical source verification", "Open-source intelligence", "Due diligence"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Research services",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ancestor research in Polish archives"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emigration tracing and village-of-origin search"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reading and translating old records"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "20th-century fates: war, deportation and displacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Historical source verification"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "OSINT background checks and due diligence"}}
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://osintinvestigator.github.io/osint/#website",
+        "url": "https://osintinvestigator.github.io/osint/",
+        "name": "Mike Charlie Research",
+        "inLanguage": "en",
+        "publisher": {"@id": "https://osintinvestigator.github.io/osint/#business"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "How far back can Polish records go?",
+           "acceptedAnswer": {"@type": "Answer", "text": "Many Catholic parish registers survive from the 17th or 18th century, and civil-religious registers were kept in most of central Poland from 1808. Wars destroyed some collections, so how far a line can be taken depends on the parish. I tell you what is likely to survive before any work begins."}},
+          {"@type": "Question", "name": "Do I need to know the village my family came from?",
+           "acceptedAnswer": {"@type": "Answer", "text": "No. Finding the place of origin is often the first part of the job. Emigration, naturalisation, military and church records in the destination country frequently name the town or parish."}},
+          {"@type": "Question", "name": "My family's surname was changed after emigration. Can you still find them?",
+           "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. Anglicised and misspelled names are common; I work from the Polish, Latin, German or Russian forms that would have appeared in the original records."}},
+          {"@type": "Question", "name": "Can we talk by phone or video call?",
+           "acceptedAnswer": {"@type": "Answer", "text": "No. All communication is by email. It keeps a written record of the scope, the questions and the findings, and it lets you reply in your own time."}},
+          {"@type": "Question", "name": "What will I receive at the end?",
+           "acceptedAnswer": {"@type": "Answer", "text": "A written report in English or Polish: the family tree, every finding linked to its source, copies or links to records where available, and a clear list of what was searched and not found."}}
+        ]
+      }
+    ]
+  }
   </script>
 </head>
 <body>
-  <div class="lang-switch">
-    <button onclick="switchLang('en')" title="English">🇬🇧</button>
-    <button onclick="switchLang('pl')" title="Polski">🇵🇱</button>
-  </div>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <div class="container">
-    <div id="en">
-      <img src="logo.png" alt="OSINT Logo" class="logo" />
-      <h1>Mike Charlie</h1>
-      <p><strong>Freelance OSINT Analyst & Investigator</strong></p>
-      <p>I help individuals, journalists, lawyers, and organizations verify people, companies, and events using only legal open-source techniques. No calls – just email clarity, discretion, and documentation.</p>
-      <p>I also apply OSINT techniques to genealogical research – tracing ancestors, analyzing archival records, and reconstructing family histories. My approach combines traditional genealogical sources with modern information analysis tools, enabling me to uncover data that might initially seem out of reach.</p>
-      <h2>What I can help you with:</h2>
-      <ul>
-        <li>Background checks (people & companies)</li>
-        <li>Due diligence for business partnerships</li>
-        <li>Online reputation & digital footprint analysis</li>
-        <li>Corporate & competitive research</li>
-        <li>Investigative support for journalism or legal needs</li>
-      </ul>
-      <h2>How I work:</h2>
-      <ul>
-        <li>All investigations based on legal, ethical OSINT practices</li>
-        <li>No phone or video calls – email communication only</li>
-        <li>Clear reports, timelines, and documentation</li>
-        <li>Freelance contract – flexible and confidential</li>
-      </ul>
-      <h2>I do not accept assignments that involve:</h2>
-      <ul>
-        <li>minors,</li>
-        <li>matters of a sexual nature,</li>
-        <li>activities that may infringe on the privacy of third parties,</li>
-        <li>tasks based solely on speculation without concrete data,</li>
-        <li>activities requiring breaking the law or interfering with IT systems.</li>
-      </ul>
-      <h2>I cooperate only with:</h2>
-      <ul>
-        <li>adults,</li>
-        <li>companies, institutions, journalists, and lawyers,</li>
-        <li>clients who clearly define the purpose and scope of the assignment and declare that the results will be used in accordance with the law and ethical standards.</li> 
-      </ul>
-      <div class="contact">
-        <h2>Contact</h2>
-        <p>Send inquiries to: <a href="mailto:mike.charlie21@proton.me">mike.charlie21@proton.me</a></p>
-        <p>I reply within 24–48 hours.</p>
-      </div>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Mike Charlie Research, home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 16h7M13 8v16M13 8h9M13 24h9" stroke="#b08444" stroke-width="2.4" fill="none"/><circle cx="24" cy="8" r="3.2" fill="#eceae3"/><circle cx="24" cy="24" r="3.2" fill="#eceae3"/><circle cx="5" cy="16" r="3.2" fill="#b08444"/></svg>
+        Mike Charlie Research
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a class="opt" href="#genealogy">Genealogy</a>
+        <a class="opt" href="#osint">OSINT</a>
+        <a class="opt" href="#process">Process</a>
+        <a class="opt" href="#contact">Contact</a>
+        <a class="lang" href="pl/" hreflang="pl" lang="pl">Polski</a>
+      </nav>
     </div>
+  </header>
 
-    <div id="pl" style="display: none;">
-      <img src="logo.png" alt="OSINT Logo" class="logo" />
-      <h1>Mike Charlie</h1>
-      <p><strong>Freelance OSINT – Analiza i Dochodzenia</strong></p>
-      <p>Pomagam osobom prywatnym, dziennikarzom, prawnikom i firmom w weryfikacji ludzi, firm i zdarzeń na podstawie jawnych, legalnych źródeł. Bez rozmów – tylko klarowna komunikacja e-mailowa, dyskrecja i raporty.</p>
-      <p>Wykorzystuję techniki OSINT również w poszukiwaniach genealogicznych – odnajduję przodków, analizuję dokumenty archiwalne oraz pomagam w rekonstrukcji historii rodzinnych. Moje podejście łączy klasyczne źródła genealogiczne z nowoczesnymi narzędziami analizy informacji, co pozwala skutecznie docierać do danych, które na pierwszy rzut oka mogą wydawać się niedostępne.</p>
-      <h2>W czym mogę pomóc:</h2>
-      <ul>
-        <li>Sprawdzanie przeszłości (osoby i firmy)</li>
-        <li>Due diligence w relacjach biznesowych</li>
-        <li>Analiza reputacji online i śladów cyfrowych</li>
-        <li>Profilowanie firm i analiza konkurencji</li>
-        <li>Wsparcie dziennikarskie lub prawnicze</li>
-      </ul>
-      <h2>Jak pracuję:</h2>
-      <ul>
-        <li>Wyłącznie legalne i etyczne techniki OSINT</li>
-        <li>Bez rozmów telefonicznych – tylko e-mail</li>
-        <li>Raporty, terminy i dokumentacja</li>
-        <li>Współpraca freelance – elastyczna i poufna</li>
-      </ul>
-       <h2>Nie przyjmuję zleceń, które dotyczą:</h2>
-        <ul>
-            <li>osób <strong>niepełnoletnich</strong>,</li>
-            <li>spraw o charakterze <strong>seksualnym</strong>,</li>
-            <li>działań mogących naruszać prywatność osób postronnych,</li>
-            <li>zadań opartych wyłącznie na domysłach, bez konkretnych danych,</li>
-            <li>aktywności wymagających łamania prawa lub ingerencji w systemy informatyczne.</li>
-        </ul>
-        <h2>Współpracuję tylko z:</h2>
-        <ul>
-            <li>osobami pełnoletnimi,</li>
-            <li>firmami, instytucjami, dziennikarzami i adwokatami,</li>
-            <li>klientami, którzy jasno określają <strong>cel i zakres zlecenia</strong> oraz deklarują wykorzystanie wyników zgodnie z prawem i etyką.</li>
-        </ul>
-      <div class="contact">
-        <h2>Kontakt</h2>
-        <p>Wysyłaj zapytania na adres: <a href="mailto:mike.charlie21@proton.me">mike.charlie21@proton.me</a></p>
-        <p>Odpowiadam w ciągu 24–48 godzin.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Find your ancestors in Poland's archives</h1>
+          <p class="lede">Genealogy research in Polish parish, civil and state records, for families whose story continues in America, Canada, Germany, Israel or anywhere else.</p>
+          <p class="sub">I combine classical archival research with open-source intelligence methods, so leads that look like dead ends often turn out not to be.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Describe your family's story</a>
+            <a class="alt" href="#process">How the research works</a>
+          </div>
+        </div>
+        <figure style="margin:0">
+          <svg class="tree" viewBox="0 0 540 400" role="img" aria-labelledby="tree-t tree-d">
+          <title id="tree-t">Example ancestor chart</title><desc id="tree-d">Four generations traced back from a client in North America to great-grandparents born in Tarnów, Posen and Łomża, with unresolved branches marked as not yet found.</desc>
+          <path class="br g2" d="M112 200H127M127 100V300M127 100H142M127 300H142"/>
+          <path class="br g3" d="M254 100H269M269 50V150M269 50H284M269 150H284"/>
+          <path class="br g3" d="M254 300H269M269 250V350M269 250H284M269 350H284"/>
+          <path class="br g4" d="M396 50H411M411 25V75M411 25H426M411 75H426"/>
+          <path class="br g4" d="M396 150H411M411 125V175M411 125H426M411 175H426"/>
+          <path class="br g4" d="M396 250H411M411 225V275M411 225H426M411 275H426"/>
+          <path class="br g4" d="M396 350H411M411 325V375M411 325H426M411 375H426"/>
+          <g class="slip g1 you"><rect x="0" y="182" width="112" height="36" rx="2"/><text x="8" y="197">You</text><text class="y" x="8" y="211">the client</text></g>
+          <g class="slip g2"><rect x="142" y="82" width="112" height="36" rx="2"/><text x="150" y="97">Father</text><text class="y" x="150" y="111">b. 1946, Chicago</text></g>
+          <g class="slip g2"><rect x="142" y="282" width="112" height="36" rx="2"/><text x="150" y="297">Mother</text><text class="y" x="150" y="311">b. 1949, Toronto</text></g>
+          <g class="slip g3"><rect x="284" y="32" width="112" height="36" rx="2"/><text x="292" y="47">Józef Nowak</text><text class="y" x="292" y="61">b. 1912, Tarnów</text></g>
+          <g class="slip g3"><rect x="284" y="132" width="112" height="36" rx="2"/><text x="292" y="147">Helena Weber</text><text class="y" x="292" y="161">b. 1915, Poznań</text></g>
+          <g class="slip g3"><rect x="284" y="232" width="112" height="36" rx="2"/><text x="292" y="247">Stanisław Lis</text><text class="y" x="292" y="261">b. 1908, Łomża</text></g>
+          <g class="slip g3 unknown"><rect x="284" y="332" width="112" height="36" rx="2"/><text x="292" y="347">Grandmother</text><text class="y" x="292" y="361">name unknown</text></g>
+          <g class="slip g4"><rect x="426" y="7" width="112" height="36" rx="2"/><text x="434" y="22">Jan Nowak</text><text class="y" x="434" y="36">b. 1881, Tarnów</text></g>
+          <g class="slip g4"><rect x="426" y="57" width="112" height="36" rx="2"/><text x="434" y="72">Maria Kos</text><text class="y" x="434" y="86">b. 1886, Tarnów</text></g>
+          <g class="slip g4"><rect x="426" y="107" width="112" height="36" rx="2"/><text x="434" y="122">Franz Weber</text><text class="y" x="434" y="136">b. 1879, Posen</text></g>
+          <g class="slip g4 unknown"><rect x="426" y="157" width="112" height="36" rx="2"/><text x="434" y="172">?</text><text class="y" x="434" y="186">not yet found</text></g>
+          <g class="slip g4"><rect x="426" y="207" width="112" height="36" rx="2"/><text x="434" y="222">Wojciech Lis</text><text class="y" x="434" y="236">b. 1874, Łomża</text></g>
+          <g class="slip g4"><rect x="426" y="257" width="112" height="36" rx="2"/><text x="434" y="272">Anna Wróbel</text><text class="y" x="434" y="286">b. 1880, Łomża</text></g>
+          <g class="slip g4 unknown"><rect x="426" y="307" width="112" height="36" rx="2"/><text x="434" y="322">?</text><text class="y" x="434" y="336">not yet found</text></g>
+          <g class="slip g4 unknown"><rect x="426" y="357" width="112" height="36" rx="2"/><text x="434" y="372">?</text><text class="y" x="434" y="386">not yet found</text></g>
+          </svg>
+          <figcaption class="tree-cap">Illustrative chart. Every name in a real report is tied to a cited record; gaps stay marked as gaps.</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section class="section" id="genealogy">
+      <div class="wrap split">
+        <header>
+          <h2>Genealogy research</h2>
+          <p>Most of the work: tracing families back through records kept in Poland and the lands of the former partitions.</p>
+        </header>
+        <ul class="services">
+          <li>
+            <h3>Ancestor search in Polish archives</h3>
+            <p>Births, marriages and deaths from parish and civil registers, State Archives, diocesan archives and the online indexes built on them.</p>
+          </li>
+          <li>
+            <h3>Emigration tracing</h3>
+            <p>Passenger lists, naturalisation papers and church records abroad, used to find the exact village or parish your family left.</p>
+          </li>
+          <li>
+            <h3>Reading old records</h3>
+            <p>Handwritten entries in Polish, Latin, Russian and German, transcribed and translated into plain English.</p>
+          </li>
+          <li>
+            <h3>20th-century fates</h3>
+            <p>What happened to relatives during the wars, deportations and border changes, from military, displacement and emigration-era sources.</p>
+          </li>
+          <li>
+            <h3>Living relatives</h3>
+            <p>Locating adult descendants of a shared ancestor, using lawful open sources and a careful, consent-minded approach to first contact.</p>
+          </li>
+          <li>
+            <h3>Checking an existing tree</h3>
+            <p>A second look at research you or someone else has done: which links are proven, which are guesses, and what to search next.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section band" id="osint">
+      <div class="wrap split">
+        <header>
+          <h2>OSINT and verification</h2>
+          <p>The same source discipline, applied to present-day questions and to historical claims.</p>
+        </header>
+        <div>
+          <p class="quote">The work is to separate what the records prove from what merely sounds plausible, and to say so plainly.</p>
+          <div class="two">
+            <div>
+              <h3>Present-day research</h3>
+              <ul class="plain">
+                <li>Background checks on companies and adults</li>
+                <li>Due diligence before a business partnership</li>
+                <li>Online reputation and digital footprint</li>
+                <li>Research support for journalists and lawyers</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Historical source verification</h3>
+              <ul class="plain">
+                <li>Independent review of a historical argument before publication</li>
+                <li>Claim-by-claim check against the cited evidence</li>
+                <li>Documented negative findings and open questions</li>
+              </ul>
+              <p style="margin-top:1rem"><a href="assets/case-study-historical-source-verification.pdf">Read an anonymised case study (PDF, 330 KB)</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="wrap split">
+        <header>
+          <h2>How the research works</h2>
+          <p>Everything happens by email, so you keep a written record of every question and every answer.</p>
+        </header>
+        <ol class="steps">
+          <li>
+            <h3>You write to me</h3>
+            <p>Names, approximate dates, places, family stories and any documents you already have, even partial or uncertain ones.</p>
+          </li>
+          <li>
+            <h3>I assess what is possible</h3>
+            <p>Which records are likely to survive, where they are held, and a proposed scope and estimate before any work starts.</p>
+          </li>
+          <li>
+            <h3>Research</h3>
+            <p>Archives, indexes and open sources are searched methodically. You get short updates when something significant turns up.</p>
+          </li>
+          <li>
+            <h3>Your report</h3>
+            <p>A family tree and a written report in English or Polish, with each finding cited, record copies where available, and a list of what was searched without result.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section band" id="ethics">
+      <div class="wrap split">
+        <header>
+          <h2>Principles</h2>
+          <p>Legal, ethical and discreet. These limits apply to every assignment.</p>
+        </header>
+        <div class="two">
+          <div>
+            <h3>I work with</h3>
+            <ul class="plain">
+              <li>adults, families and descendants</li>
+              <li>companies, institutions, journalists and lawyers</li>
+              <li>clients who state the purpose and scope of the research and will use the results lawfully and ethically</li>
+            </ul>
+          </div>
+          <div>
+            <h3>I do not take on</h3>
+            <ul class="plain">
+              <li>anything concerning minors</li>
+              <li>matters of a sexual nature</li>
+              <li>work that would intrude on the privacy of uninvolved people</li>
+              <li>tasks resting on speculation with no concrete data</li>
+              <li>anything that requires breaking the law or accessing IT systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="wrap split">
+        <header>
+          <h2>Questions</h2>
+        </header>
+        <div>
+          <details>
+            <summary>How far back can Polish records go?</summary>
+            <p>Many Catholic parish registers survive from the 17th or 18th century, and civil-religious registers were kept in most of central Poland from 1808. Wars destroyed some collections, so how far a line can be taken depends on the parish. I tell you what is likely to survive before any work begins.</p>
+          </details>
+          <details>
+            <summary>Do I need to know the village my family came from?</summary>
+            <p>No. Finding the place of origin is often the first part of the job. Emigration, naturalisation, military and church records in the destination country frequently name the town or parish.</p>
+          </details>
+          <details>
+            <summary>My family's surname was changed after emigration. Can you still find them?</summary>
+            <p>Usually, yes. Anglicised and misspelled names are common; I work from the Polish, Latin, German or Russian forms that would have appeared in the original records.</p>
+          </details>
+          <details>
+            <summary>Can we talk by phone or video call?</summary>
+            <p>No. All communication is by email. It keeps a written record of the scope, the questions and the findings, and it lets you reply in your own time.</p>
+          </details>
+          <details>
+            <summary>What will I receive at the end?</summary>
+            <p>A written report in English or Polish: the family tree, every finding linked to its source, copies or links to records where available, and a clear list of what was searched and not found.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap split">
+        <header>
+          <h2>Start with an email</h2>
+        </header>
+        <div>
+          <a class="mail" href="mailto:mike.charlie21@proton.me?subject=Genealogy%20research%20inquiry">mike.charlie21@proton.me</a>
+          <p>It helps to include:</p>
+          <ul class="plain">
+            <li>the names of the ancestors you are looking for</li>
+            <li>approximate dates and any place names you know</li>
+            <li>what you already have: documents, photos, family stories</li>
+            <li>what you would most like to find out</li>
+          </ul>
+          <p class="muted" style="margin-top:1.25rem">I reply within 24–48 hours.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span>© 2026 Mike Charlie Research</span>
+      <span><a href="pl/" hreflang="pl" lang="pl">Wersja polska</a></span>
     </div>
-  </div>
+  </footer>
 </body>
 </html>

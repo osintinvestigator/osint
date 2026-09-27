@@ -1,0 +1,25 @@
+# Mike Charlie Research
+
+> Genealogy research in Polish archives, emigration tracing, reading and translating old records (Polish, Latin, Russian, German), historical source verification, and open-source intelligence (OSINT) research. Email-only service for adults, families, companies, journalists and lawyers worldwide. Reports in English or Polish.
+
+Contact: mike.charlie21@proton.me (replies within 24–48 hours; no phone or video calls)
+
+## Pages
+
+- [Home (English)](https://osintinvestigator.github.io/osint/): services, research process, principles, FAQ
+- [Strona główna (Polski)](https://osintinvestigator.github.io/osint/pl/): Polish version
+- [Case study: historical source verification (PDF)](https://osintinvestigator.github.io/osint/assets/case-study-historical-source-verification.pdf)
+
+## Services
+
+- Ancestor search in Polish parish and civil registers, State Archives and diocesan archives
+- Emigration tracing and village-of-origin search (passenger lists, naturalisation, church records abroad)
+- Transcription and translation of handwritten records
+- 20th-century fates: war, deportation, border changes
+- Locating living adult relatives through lawful open sources
+- Review of an existing family tree
+- OSINT background checks on companies and adults, due diligence, digital footprint, support for journalists and lawyers
+
+## Limits
+
+Does not accept work concerning minors, sexual matters, intrusion into the privacy of uninvolved people, pure speculation, or anything requiring breaking the law or accessing IT systems.
