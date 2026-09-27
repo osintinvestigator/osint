@@ -2,13 +2,13 @@
 :root {
   --ink: #1f3440;        /* brand slate-teal */
   --ink-deep: #152630;
-  --paper: #f1f0eb;
-  --paper-2: #e7e5dd;
+  --paper: #edf0f0;
+  --paper-2: #e1e7e8;
   --ochre: #b08444;      /* decorative / large text only */
   --ochre-text: #7e5a21; /* AA on paper */
   --text: #1c2429;
   --muted: #56666e;
-  --line: #d3cfc4;
+  --line: #c9d2d4;
   --on-ink: #eceae3;
   --on-ink-muted: #a9b6bb;
 
